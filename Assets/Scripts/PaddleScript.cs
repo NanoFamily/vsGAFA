@@ -43,12 +43,12 @@ public class PaddleScript : MonoBehaviour
         if (this.isLButtonDown) 
         {
             //左に移動
-            transform.Translate(0.2f, 0, 0);
+            transform.Translate(0.4f, 0, 0);
         }
         else if (this.isRButtonDown)
         {
             //右に移動
-            transform.Translate(-0.2f, 0, 0);
+            transform.Translate(-0.4f, 0, 0);
         }
         //追加
     }
